@@ -6,8 +6,18 @@ This project aims to analyze disinformation narratives about the banking sector 
 ---
 
 ## 📂 Project Structure
-project_directory/ │ ├── data/ # Raw input datasets │ ├── x-raw.csv │ ├── x-toxicity_attacks.csv │ ├── x-related-factchecks.csv │ ├── x-clustering.csv │ ├── x-clustering-cluster_metadata.csv │ ├── scripts/ # Python scripts for data ingestion and processing │ ├── data_ingestion.py │ ├── data_transformation.py │ ├── data_analysis.py │ ├── dashboards/ # Power BI or other BI tool dashboards │ ├── Main_Dashboard.pbix │ ├── Screenshots/ │ ├── logs/ # Logs generated during processing ├── outputs/ # Processed datasets for analysis └── README.md # Project documentation (this file)
+├── auxiliar
+│   ├── trueflag_icon.png
+│   └── trueflag_logo.png
+├── data
+│   ├── raw
+│	│	└── {Here should input files be stored}
+│   └── processed
+├── etl_processing.py
+├── requirements.txt
+└── README.md
 
+4 directories, 5 files
 
 ---
 
