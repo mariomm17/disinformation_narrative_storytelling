@@ -3,7 +3,6 @@
 ## 📖 Overview
 This project aims to analyze disinformation narratives about the banking sector during October. By utilizing datasets enriched with toxicity classifications, claim matching, and topic modeling, the analysis identifies suspicious and potentially malicious content. The findings are visualized through a series of dashboards to support storytelling and client decision-making.
 
----
 
 ## 📂 Project Structure
 ├── auxiliar
@@ -19,7 +18,6 @@ This project aims to analyze disinformation narratives about the banking sector 
 
 4 directories, 5 files
 
----
 
 ## 🎯 Objectives
 1. Identify narratives with:
