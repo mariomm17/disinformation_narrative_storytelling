@@ -1,55 +1,83 @@
+# Banking Disinformation Analysis
 
+## 📖 Overview
+This project aims to analyze disinformation narratives about the banking sector during October. By utilizing datasets enriched with toxicity classifications, claim matching, and topic modeling, the analysis identifies suspicious and potentially malicious content. The findings are visualized through a series of dashboards to support storytelling and client decision-making.
+
+---
+
+## 📂 Project Structure
+project_directory/ │ ├── data/ # Raw input datasets │ ├── x-raw.csv │ ├── x-toxicity_attacks.csv │ ├── x-related-factchecks.csv │ ├── x-clustering.csv │ ├── x-clustering-cluster_metadata.csv │ ├── scripts/ # Python scripts for data ingestion and processing │ ├── data_ingestion.py │ ├── data_transformation.py │ ├── data_analysis.py │ ├── dashboards/ # Power BI or other BI tool dashboards │ ├── Main_Dashboard.pbix │ ├── Screenshots/ │ ├── logs/ # Logs generated during processing ├── outputs/ # Processed datasets for analysis └── README.md # Project documentation (this file)
+
+
+---
+
+## 🎯 Objectives
+1. Identify narratives with:
+   - High toxicity levels.
+   - Targeted attacks on banks, institutions, or products.
+   - Connections to verified claim reviews (fact-checking).
+   - Malicious intent based on manual inspection.
+2. Provide actionable insights through visual storytelling and comparative panels.
 
 ---
 
 ## ⚙️ Workflow
 
 ### 1. Data Ingestion
-- **Input**: Raw CSV files located in `data/` directory.
-- **Validation**:
-  - Files are checked for structure, missing values, and required columns.
-  - Anomalies are logged in `logs/`.
+- Load datasets into a structured format (e.g., SQL database or Pandas DataFrame).
+- Log missing or incomplete data for debugging.
 
-### 2. Data Processing
-- **Script**: `scripts/process_data.py`
-- **Transformations**:
-  - Clean null values.
-  - Standardize date and numeric formats.
-  - Apply business rules (e.g., filtering rows based on conditions).
-- **Output**: Processed CSV files saved in `processed_data/`.
+### 2. Data Transformation
+- Merge datasets using `content_id` as the key.
+- Enrich data with computed metrics:
+  - Toxicity score distribution.
+  - Frequency of fact-check matches.
+  - Clusters most associated with banking disinformation.
 
-### 3. Integration with Power BI
-- **Steps**:
-  1. Import processed files from `processed_data/` into Power BI.
-  2. Use `PowerBI_Report.pbit` as the report template.
-- **Key Visuals**:
-  - Summary statistics.
-  - Trends over time.
-  - Custom KPIs.
+### 3. Analysis
+- Identify narratives matching suspicious criteria:
+  - High toxicity + targeted attack.
+  - Fact-check matches indicating disinformation.
+- Generate metrics for:
+  - Volume and frequency of toxic messages.
+  - Impacted brands or institutions.
+  - Cluster summaries.
 
----
-
-## 📋 Prerequisites
-1. **Python Environment**:
-   - Python 3.8+
-   - Required packages:
-     ```
-     pandas
-     numpy
-     logging
-     ```
-   - Install dependencies:
-     ```bash
-     pip install -r requirements.txt
-     ```
-2. **Power BI Desktop**:
-   - [Download here](https://powerbi.microsoft.com/desktop/).
+### 4. Visualization
+- **Dashboard Components**:
+  - **Volume Analysis**: General, banking-specific, and attacker-specific data comparisons.
+  - **Suspicious Narratives**: Toxicity levels, targeted attacks, and fact-check connections.
+  - **Time Trends**: Activity over October.
+  - **Brand Impact**: Most affected entities.
+- Interactive filters for:
+  - Date range.
+  - Narrative type (e.g., toxic, targeted attack).
+  - Keywords.
 
 ---
 
-## 🚀 Setup and Usage
+## 🛠 Tools and Technologies
+- **Data Processing**:
+  - Python (pandas, numpy, SQLAlchemy, matplotlib, seaborn)
+- **Visualization**:
+  - Power BI (pbix file included in `dashboards/` folder)
+- **Database**:
+  - SQLite (or preferred OLAP system for scalability)
+- **Logging**:
+  - Python logging module
+
+---
+
+## 🔗 Resources
+- [Power BI Documentation](https://learn.microsoft.com/en-us/power-bi/)
+- [Python pandas Documentation](https://pandas.pydata.org/docs/)
+- Dataset description included in the "Task Definition".
+
+---
+
+## 🚀 Setup Instructions
 
 ### Step 1: Clone Repository
 ```bash
-git clone https://github.com/yourusername/yourrepository.git
-cd yourrepository
+git clone https://github.com/yourusername/banking-disinformation-analysis.git
+cd banking-disinformation-analysis
