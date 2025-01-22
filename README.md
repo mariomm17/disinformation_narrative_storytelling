@@ -5,19 +5,21 @@ This project aims to analyze disinformation narratives about the banking sector 
 
 
 ## 📂 Project Structure
-├── auxiliar
-│   ├── trueflag_icon.png
-│   └── trueflag_logo.png
-├── data
-│   ├── raw
-│	│	└── {Here should input files be stored}
-│   └── processed
-├── etl_processing.py
-├── requirements.txt
-└── README.md
+
+- auxiliar
+  - trueflag_icon.png
+  - trueflag_logo.png
+- data
+  - raw {Here should input files be stored}
+  - processed
+- etl_processing.py
+- requirements.txt
+- README.md
+
 
 4 directories, 5 files
 
+---
 
 ## 🎯 Objectives
 1. Identify narratives with:
