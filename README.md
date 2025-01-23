@@ -10,7 +10,7 @@ This project aims to analyze disinformation narratives about the banking sector 
   - trueflag_icon.png
   - trueflag_logo.png
 - data
-  - raw *{input files should be stored here}*
+  - raw *// input files should be stored here*
   - processed
 - etl_processing.py
 - requirements.txt
