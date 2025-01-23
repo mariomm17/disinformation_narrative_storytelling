@@ -68,10 +68,13 @@ The Power BI dashboard (that can be found [here](https://app.powerbi.com/view?r=
   - Main KPIs by user(s) versus the overall network.
   - Identification of trends and user clusters based on claim matching, toxicity, and bot likelihood.
   - Detailed user behavior and their attributes.
-    
+
+<br>
+
 ---
 
 <br>
+
 ## 🎥 Demo videos
 
 - **Video 1 - General Context View**
@@ -83,27 +86,13 @@ The Power BI dashboard (that can be found [here](https://app.powerbi.com/view?r=
  - **Video 3 - Bank Narratives View (Part 2)**
    https://www.loom.com/share/696070d8229d4b8baf13a45eb3b27938?sid=6c4934cf-f5f6-4d38-baea-a253a7a3412d
 
- - **Vídeo 4 - Users in Network View**
+ - **Video 4 - Users in Network View**
    https://www.loom.com/share/a853ec5d0b8d4661bd4c2733310646b9?sid=84400977-a253-41f1-8846-f43ffa39ee04
-
+<br>
 ---
 <br>
-## 🛠 Tools and Technologies
-- **Data Processing**:
-  - Python (pandas, os)
-- **Visualization**:
-  - Power BI
 
----
-<br>
-## 🔗 Resources
-- [Power BI Documentation](https://learn.microsoft.com/en-us/power-bi/)
-- [Python pandas Documentation](https://pandas.pydata.org/docs/)
-- Dataset description included in the "Task Definition".
-
----
-<br>
-## 🚀 Setup Instructions
+## 🚀 Deploy Instructions
 
 ### Step 1: Clone repository
 ```bash
@@ -117,5 +106,29 @@ python -m venv disinformation_narrative_storytelling
 disinformation_narrative_storytelling\Scripts\activate
 pip install -r requirements.txt
 ```
+
+### Step 3: Run data processing script
+Replace `<script_path>` with the correct path to the processing script:
+```bash
+python <script_path>
+```
+
+### Step 4: Update Power BI 'Source path file'
+Modify the `Source path file` parameter in Power BI Desktop to point to the `data` folder on the deployment system.
+
+<br>
+---
+<br>
+
+## 🛠 Tools and Technologies
+- **Data Processing**:
+  - Python (pandas, os)
+- **Visualization**:
+  - Power BI
+
+<br>
+
+## 🔗 Resources
+- [Shared public link of Power BI dashboard](https://app.powerbi.com/view?r=eyJrIjoiM2I2NDExYjQtMGJhNy00YjgyLTg1N2UtMGZjODE2YWFjNzViIiwidCI6ImU3ZjUzZjNmLTYzNmItNDNhZC04MDdlLTU3Yzk2NmZmN2RiOCIsImMiOjh9)
 
 
