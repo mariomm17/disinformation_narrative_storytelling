@@ -31,6 +31,35 @@ This project aims to analyze disinformation narratives about the banking sector 
 
 ---
 
+## 📊 Dashboard Analytics
+
+[Link]: https://app.powerbi.com/view?r=eyJrIjoiM2I2NDExYjQtMGJhNy00YjgyLTg1N2UtMGZjODE2YWFjNzViIiwidCI6ImU3ZjUzZjNmLTYzNmItNDNhZC04MDdlLTU3Yzk2NmZmN2RiOCIsImMiOjh9
+
+The Power BI dashboard is designed to provide insights into disinformation narratives related to the banking sector. Below is a description of each view and its functionality:
+
+1. **General context view**:
+   - **Purpose**: Contextualizar estado general de la red. Entender cómo es el comportamiento de los usuarios en la red, así como de los temas generales más representativos.
+   - **Key Metrics**:
+     - Total number of messages, usuarios analyzed.
+     - Claim matching y Toxicity ratios por mensaje.
+     - Análisis de sentimientos de los mensajes.
+    
+2. **Bank narratives view**:
+  - **Purpose**: Contextualizar estado general de la red. Entender cómo es el comportamiento de los usuarios en la red, así como de los temas generales más representativos.
+   - **Key Metrics**:
+     - Total number of messages, usuarios analyzed.
+     - Claim matching y Toxicity ratios por mensaje.
+     - Análisis de sentimientos de los mensajes.
+
+3. **Users in network view**
+   - **Purpose**: Contextualizar estado general de la red. Entender cómo es el comportamiento de los usuarios en la red, así como de los temas generales más representativos.
+   - **Key Metrics**:
+     - Total number of messages, usuarios analyzed.
+     - Claim matching y Toxicity ratios por mensaje.
+     - Análisis de sentimientos de los mensajes.
+    
+---
+
 ## ⚙️ Workflow
 
 ### 1. Data Ingestion
