@@ -33,10 +33,10 @@ This project aims to analyze disinformation narratives about the banking sector 
 
 ## 📊 Dashboard Analytics
 
-Vídeo 1: https://www.loom.com/share/8d27bda72d384f0da6ed225d7109b696?sid=8b4d5016-8d70-4cf6-8130-e972b241a3fb
-Vídeo 2.1: https://www.loom.com/share/d636b9d3cc2b4d63a208fd69c8b5d124?sid=106ca9f2-1eb9-4e01-9a78-20b3b7bbac5f
-Vídeo 2.2: https://www.loom.com/share/696070d8229d4b8baf13a45eb3b27938?sid=6c4934cf-f5f6-4d38-baea-a253a7a3412d
-Vídeo 3: https://www.loom.com/share/a853ec5d0b8d4661bd4c2733310646b9?sid=84400977-a253-41f1-8846-f43ffa39ee04
+- [Vídeo 1](https://www.loom.com/share/dcb27c59e7104de1bef5520883a8e91a?sid=4373e5d8-c50b-4ce1-8561-f9ffe1544761)
+- [Vídeo 2.1] (https://www.loom.com/share/d636b9d3cc2b4d63a208fd69c8b5d124?sid=106ca9f2-1eb9-4e01-9a78-20b3b7bbac5f)
+- [Vídeo 2.2] (https://www.loom.com/share/696070d8229d4b8baf13a45eb3b27938?sid=6c4934cf-f5f6-4d38-baea-a253a7a3412d)
+- [Vídeo 3] (https://www.loom.com/share/a853ec5d0b8d4661bd4c2733310646b9?sid=84400977-a253-41f1-8846-f43ffa39ee04)
 
 The Power BI dashboard is designed to provide insights into disinformation narratives related to the banking sector. Below is a description of each view and its functionality:
 
