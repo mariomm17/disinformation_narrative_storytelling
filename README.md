@@ -88,8 +88,11 @@ The Power BI dashboard (that can be found [here](https://app.powerbi.com/view?r=
 
  - **Video 4 - Users in Network View**
    https://www.loom.com/share/a853ec5d0b8d4661bd4c2733310646b9?sid=84400977-a253-41f1-8846-f43ffa39ee04
+
 <br>
+
 ---
+
 <br>
 
 ## 🚀 Deploy Instructions
@@ -116,8 +119,11 @@ python <script_path>
 ### Step 4: Update Power BI 'Source path file'
 Modify the `Source path file` parameter in Power BI Desktop to point to the `data` folder on the deployment system.
 
+
 <br>
+
 ---
+
 <br>
 
 ## 🛠 Tools and Technologies
