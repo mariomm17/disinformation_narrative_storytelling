@@ -17,9 +17,10 @@ This project focuses on analyzing disinformation narratives in the banking secto
   - processed
 - etl_processing.py
 - requirements.txt
+- Dashboard_MarioAntonioMunozMunoz.txt
 - README.md
 
-4 directories, 5 files
+4 directories, 6 files
 
 <br>
 
