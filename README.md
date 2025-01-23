@@ -33,9 +33,19 @@ This project aims to analyze disinformation narratives about the banking sector 
 
 ## 📊 Dashboard Analytics
 
-[Link]: https://app.powerbi.com/view?r=eyJrIjoiM2I2NDExYjQtMGJhNy00YjgyLTg1N2UtMGZjODE2YWFjNzViIiwidCI6ImU3ZjUzZjNmLTYzNmItNDNhZC04MDdlLTU3Yzk2NmZmN2RiOCIsImMiOjh9
+Vídeo 1: https://www.loom.com/share/8d27bda72d384f0da6ed225d7109b696?sid=8b4d5016-8d70-4cf6-8130-e972b241a3fb
+Vídeo 2.1: https://www.loom.com/share/d636b9d3cc2b4d63a208fd69c8b5d124?sid=106ca9f2-1eb9-4e01-9a78-20b3b7bbac5f
+Vídeo 2.2: https://www.loom.com/share/696070d8229d4b8baf13a45eb3b27938?sid=6c4934cf-f5f6-4d38-baea-a253a7a3412d
+Vídeo 3: https://www.loom.com/share/a853ec5d0b8d4661bd4c2733310646b9?sid=84400977-a253-41f1-8846-f43ffa39ee04
 
 The Power BI dashboard is designed to provide insights into disinformation narratives related to the banking sector. Below is a description of each view and its functionality:
+
+0. Consideraciones generales
+    - **Atributos de estudio para identificar contenido sospechoso**:
+      - Ratio de toxicidad. Threshold value:
+      - Ratio de claim matching. Treshold value:
+      - User is potential bot. Computed as:
+      - Message is object directed.  
 
 1. **General context view**:
    - **Purpose**: Contextualizar estado general de la red. Entender cómo es el comportamiento de los usuarios en la red, así como de los temas generales más representativos.
@@ -45,7 +55,7 @@ The Power BI dashboard is designed to provide insights into disinformation narra
      - Análisis de sentimientos de los mensajes.
     
 2. **Bank narratives view**:
-  - **Purpose**: Contextualizar estado general de la red. Entender cómo es el comportamiento de los usuarios en la red, así como de los temas generales más representativos.
+  - **Purpose**: Analizar narrativas sobre el sector bancario, en cuanto a . Contextualizar estado general de la red. Entender cómo es el comportamiento de los usuarios en la red, así como de los temas generales más representativos.
    - **Key Metrics**:
      - Total number of messages, usuarios analyzed.
      - Claim matching y Toxicity ratios por mensaje.
@@ -57,6 +67,15 @@ The Power BI dashboard is designed to provide insights into disinformation narra
      - Total number of messages, usuarios analyzed.
      - Claim matching y Toxicity ratios por mensaje.
      - Análisis de sentimientos de los mensajes.
+    
+Consideraciones generales
+    - **Atributos de estudio para identificar contenido sospechoso**:
+      - Ratio de toxicidad. Threshold value:
+      Ratio de claim matching. Treshold value:
+      User is potential bot. Computed as:
+      Message is object directed.  
+
+1. Valores de threshold para id
     
 ---
 
